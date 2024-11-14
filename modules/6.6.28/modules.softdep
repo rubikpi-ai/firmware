@@ -1,0 +1,5 @@
+# Soft dependencies extracted from modules themselves.
+softdep ipmi_msghandler post: ipmi_devintf
+softdep xt_LOG pre: nf_log_syslog
+softdep iris_vpu pre: subsys-pil-tz msm-mmrm
+softdep msm_kgsl pre: arm_smmu nvmem_qfprom socinfo
